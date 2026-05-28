@@ -1,0 +1,35 @@
+->->-> {
+    | > {
+        random time = 100-400 $ ($ = ticks) : (: = then) * (* = scan) <> (<> radius) 300 m : spawn [enemy ID] \ (\ = at) <> :\> (:\> = equal to or great then) 100-300 m
+    }
+    | < {
+        random time :\: (:\: = equal to) 400 $ : * <> 1500 m : spawn [merchant ID] \ :\: 50-100 m 
+    }
+    | < {
+        random time :/< 6000 $ : ;/; (;/; can be a function like Save or something) game @^ store at ~file = C:file directory~ (~ = paramiters like defining a location of a specific file) '|' ('|' = or) ~Custom directory~
+    }
+}
+
+|> {
+    player [|] ([|] = key presed) "e" open [Inventory] 
+}
+
+|> {
+    player [|] LMB use ^ "Swing" ->->-> {
+        |> {
+            player {'} ({'} = uses) ^ "swing" : su { 100 5} = 95 stamina
+            |< {
+                |> { 
+                    player [|;] LMB : {'} ^ "heavy swing" ([|;] = key held) : su {100 15} = 85 stamina 
+                    enemy takes 5 HP *|* (*|* = or) 10 hp when player {'} ^ "swing" *|* "heavy swing" 
+                }
+            }
+        }
+    }
+}
+
+|> {
+    [enemy] takes 100 T (T can be used as Total or another function) HP : give player 50 EXP |> {
+        player has :\> 50 EXP : {''} ({''} = use which can tell a function to use another function) ^ "level up"
+    }
+}

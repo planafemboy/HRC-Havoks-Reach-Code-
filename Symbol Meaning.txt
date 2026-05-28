@@ -1,0 +1,49 @@
+Symbol                  Meaning
+$                       ticks
+:                       then
+*                       Scan         
+<>                      radius
+\                       at
+:\>                     equal to or greater then
+:/<                     equal to or less then
+:\:                     equal to
+->->->                  chain
+|>                      if
+|<                      else
+<->                     loop
+^                       Function
+##                      comment
+>>                      output
+;/;                     system function
+@^                      save/store
+~                       parameters/directory
+su                      subtract
+ad                      add
+mu                      multiplu
+di                      division
+h                       health
+{*}                     1 error
+[*]                     10 error
+|*|                     100 error
+/*\                     1000 errors
+Shift + up arrow        scrolling up (can be used vise versa for down)
+shift + <>              scrolling left or right
+Alt + W                 select words and chars above 
+Alt + S                 select words and chars below
+Alt + A                 select words and chars left
+Alt + D                 select words and chars right
+Alt + Shift + W         select entire line upward
+Alt + Shift + S         select entire line downward
+Alt + Shift + A         select to line start
+Alt + Shift + D         select to line end
+
+
+
+
+
+
+Visual — symbols convey meaning by how they look
+Ergonomic — symbols cluster on right side of keyboard
+Scalable — more complex operations use longer symbol chains
+Minimal — common operations have shortest symbols
+Readable — code should be scannable at a glance
