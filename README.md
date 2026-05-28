@@ -1,3 +1,3 @@
-HRC (Havoks Reach Code) is a project I started around a year ago, I didnt like how confusing other languages were and with my path mainly as a game dev, I wanted a coding language, so i made my own.
-HRC stives to make coding easier, in more of a way that all the imporant symbols and words are reduced to the entire right side of the keyboard, making it easier to use.
-Most functions sometimes repeat them selfs for their counterparts, but it makes it easier to use syombls when coding so you can save the letters for when you need them.
+HRC is a programming language I designed and built from scratch about a year ago. I wanted a language that felt more natural for game development workflows — one where the syntax didn't get in the way of the logic.
+The core idea behind HRC is ergonomics: all the important symbols and keywords are mapped to the right side of the keyboard, so your hands aren't constantly jumping around while you code. Functions sometimes mirror their counterparts intentionally, making symbol-based syntax easier to remember and use consistently — saving letters for where they actually matter.
+This is an ongoing personal project built out of frustration with existing languages and a desire to understand how languages work at a fundamental level.
